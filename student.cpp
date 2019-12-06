@@ -9,8 +9,6 @@ void student::setName(string firstName, string lastName)
 
 string student::fullName()
 {
-    string first;
-    string last;
     string value;
     value = first.append(last);
     return value;
