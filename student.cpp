@@ -1,10 +1,10 @@
 #include "student.h"
 using namespace std;
 #include<string>
-void student::setName(string first, string last)
+void student::setName(string firstName, string lastName)
 {
-    first = "";
-    last = "";
+    first = firstName;
+    last = lastName;
 }
 
 string student::fullName()
