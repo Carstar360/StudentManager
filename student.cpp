@@ -10,6 +10,7 @@ void student::setName(string firstName, string lastName)
 string student::fullName()
 {
     string value;
+    value = first.append(" ");
     value = first.append(last);
     return value;
 }
