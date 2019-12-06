@@ -4,7 +4,7 @@ using namespace std;
 void student::setName(string firstName, string lastName)
 {
     first = firstName;
-    last = lastName;
+    last = lastName;//hey
 }
 
 string student::fullName()
